@@ -12,7 +12,28 @@ a {
     display: flex;
     gap: 2rem;
 }
+header {
+    background-color: #1F2937;
+    margin: 0 auto;
+    color: #F9FAF8;
+    padding-bottom: 50px;
+}
+/* Main & Navbar */
+.container {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
 /* Main */
+.colored-padding {
+    background-color: #1F2937;
+    padding-bottom: 70px;
+}
 .text > * {
     margin: 0;
     padding: 0;
@@ -27,32 +48,33 @@ a {
     align-items: center;
 }
 .round-btn {
-    margin-top: 15px;
-    background-color: lightsky;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #0088ff;
+    color: white;
     width: 100px;
     height: 30px;
     font-family: 'Roboto';
     border-radius: 10px;
+    font-weight: bold;
     text-decoration: none;
     border: none;
 }
-/* Main & Navbar */
-header,main  {
-    margin: 0 auto;
-    background-color: #1F2937;
-    margin: 0;
-    color: #F9FAF8;
-    padding-bottom: 50px;
+/* Third Section (2nd section of main) */
+.container-2 {
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
-
-header .container, main .container {
-    margin-left: 15vw;
-    margin-right: 15vw;
+.container-2 > h3 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
 }
-.hero, .section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
+.card {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
-
+/* Fourth Section */
