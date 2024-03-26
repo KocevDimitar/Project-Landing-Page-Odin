@@ -121,3 +121,13 @@ header {
     width: 120px;
     height: 30px;
 }
+/* Footer */
+.odin-footer {
+    background-color: #1F2937;
+    display: flex;
+    color: #E5E7EB;
+    height: 80px;
+    justify-content:center;
+    align-items: center;
+    font-size: 14px;
+}
