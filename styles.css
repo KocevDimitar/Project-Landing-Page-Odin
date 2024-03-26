@@ -50,7 +50,7 @@ header {
 .round-btn {
     cursor: pointer;
     margin-top: 10px;
-    background-color: #0088ff;
+    background-color: #3882F6;
     color: white;
     width: 100px;
     height: 30px;
@@ -96,4 +96,28 @@ header {
     text-align: end;
     margin: 0px;
     font-size: 20px;
+}
+/* Fifth section */
+.blue-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    height: 120px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: white;
+}
+.blue-holder-btn {
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    width: 120px;
+    height: 30px;
 }
